@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: auto;
+}
+.first{
+    height: 700px;
+    width: 700px;
+    background-color: #B0C4DE;
+    position: absolute;
+}
+.second{
+    height: 500px;
+    width: 350px;
+    background-color: #483D8B;
+    position: relative;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 10px;      
+}
+.second .head{   
+    background-color: #191970;
+    height: 40px;
+    padding-top: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.second .head h3{
+    text-align: center;
+    color: #FFFFFF;
+}
+.formin input[type="text"], input[type="text"], input[type="email"], input[type="password"]{
+    width:250px;
+    padding:7px;
+    box-sizing: border-box;
+    border-color: #483D8B;
+    border-radius: 5px;
+    margin-left: 50px;
+}
+.formin input[type="checkbox"]{
+    margin-left: 50px;    
+}
+.formin label{
+    margin: 20px;
+    color: #F5F5F5;
+    font-size: 10px;
+    opacity: 50%;
+    align-items: center;
+}
+.formin button{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin-left: 180px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
